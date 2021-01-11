@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#contact-form {
+    transform: translateY(50px);
+}
+
+table {
+    transform: translateY(30px);
+}
+
+/* title styling */
+.title {
+    transform: translateY(25px);
+    text-align: center;
+    color: rgb(25, 152, 194);
+}
+
+/* add contact button styling */
+#btn {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+/* error messege styling */
+.error {
+    transform: translateY(30px);
+    background-color: rgb(204, 74, 74);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+/* success messege styling */
+.success {
+    transform: translateY(30px);
+    background-color: rgb(19, 190, 19);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 20px;
+}
